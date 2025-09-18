@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificações em TI e Cibersegurança</title>
+    <style>
+        /* fonte bonitinha xd xd rsrs */
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #0d1b2a;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            background: #1b263b;
+            position: sticky; /* deixa fixo no topo */
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ffd60a;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h1, h2 {
+            color: #0d1b2a;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+        }
+
+        audio, video {
+            margin-top: 10px;
+            width: 100%;
+        }
+
+        footer {
+            background: #0d1b2a;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+
+        /* responsividade simmples */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+            }
+
+            nav ul li {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Certificações em TI e Cibersegurança</h1>
+        <p>Guia para quem quer se preparar para o futuro na area de segurança digital</p> 
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#intro">Início</a></li>
+            <li><a href="#certificacoes">Certificações</a></li>
+            <li><a href="#video">Vídeo</a></li>
+            <li><a href="#audio">Áudio</a></li>
+            <li><a href="#iframe">Iframe</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="intro">
+            <h2>Por que certificações?</h2>
+            <p>As certificações em TI são uma forma de comprovar conhecimentos técnicos e abrir portas no mercado de trabalho. 
+            Na área de <strong>cibersegurança</strong>, elas são ainda mais valorizadas devido ao aumento dos ataques virtuais.</p>
+            <img src="imagens/cyber.jpg" alt="Imagem sobre cibersegurança">
+            <!-- espero q essa img funcione, se nao troca dps -->
+        </section>
+
+        <section id="certificacoes">
+            <h2>Principais certificações</h2>
+            <p>Aqui estão algumas certificações importantes para quem quer atuar em segurança:</p>
+            <ul>
+                <li>CompTIA Security+</li>
+                <li>CISSP (Certified Information Systems Security Professional)</li>
+                <li>CEH (Certified Ethical Hacker)</li>
+                <li>ISO/IEC 27001</li>
+            </ul>
+
+            <p>Etapas comuns para se preparar:</p>
+            <ol>
+                <li>Estudar os conteúdos oficiais</li>
+                <li>Praticar em laboratórios virtuais</li>
+                <li>Realizar simulados</li>
+                <li>Agendar e realizar o exame</li>
+            </ol>
+            <!-- meio bagunçado mas ta valendo -->
+        </section>
+
+        <section id="video">
+            <h2>Vídeo sobre Cibersegurança</h2>
+            <video controls>
+                <source src="videos/cyberseguranca.mp4" type="video/mp4">
+                Seu navegador não suporta o vídeo.
+            </video>
+        </section>
+
+        <section id="audio">
+            <h2>Podcast de Segurança</h2>
+            <audio controls>
+                <source src="audios/podcast.mp3" type="audio/mpeg">
+                Seu navegador não suporta o áudio.
+            </audio>
+        </section>
+
+        <section id="iframe">
+            <h2>Iframe com Conteúdo</h2>
+            <p>Aqui está um exemplo de iframe com um vídeo do YouTube:</p>
+            <iframe src="https://www.youtube.com/embed/2_lswM1S264" title="Vídeo Cibersegurança"></iframe>
+        </section>
+    </main>
+
+    <aside>
+        <p>Dica rápida: Sempre utilize senhas fortes e autenticação multifator para proteger suas contas.</p>
+        <!-- n sei se precisava de aside mas botei pq pediram semantica -->
+    </aside>
+
+    <footer>
+        <p>Site desenvolvido como projeto acadêmico - Certificações em TI e Cibersegurança</p>
+    </footer>
+</body>
+</html>
